@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  gpl,
+  crayven,
+  gift,
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +119,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer",
+    company_name: "Giftwrap",
+    icon: gift,
+    iconBg: "#E6E6FA",
+    date: "MARCH 2022 – OCTOBER 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full-Stack Web Developer",
+    company_name: "Crayven Estates",
+    icon: crayven,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "JUNE 2021 – MARCH 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the development and deployment of Crayven Estates' real estate website, from conception to implementation.",
+      "Leveraged advanced skills in React.js, CSS, Express.js, and Node.js to create visually appealing interfaces and establish a robust backend infrastructure for the website",
+      "Collaborated closely with marketing and design teams to ensure alignment with branding and effectively showcase the company's diverse properties and services on the website",
+      "Integrated SEO strategies into the website to improve search engine visibility, thereby increasing brand exposure and attracting more potential customers to Crayven Estates' online platform",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Planning and Operations Officer",
+    company_name: "General Plastics",
+    icon: gpl,
+    iconBg: "#FAEBD7",
+    date: "NOVEMBER 2018 – AUGUST 2020.",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Spearheaded strategic planning initiatives for key operations at General Plastics, focusing on long-term goals and objectives to drive organizational success.",
+      "Implemented meticulous resource allocation strategies, including budgeting for raw materials and coordinating resources",
+      "Leveraged chemical engineering expertise to optimize manufacturing processes, enhancing efficiency and productivity across all operations",
+      " Employed cost-effective planning methodologies to ensure optimal utilization of resources, minimizing expenses while maximizing output and profitability for General Plastics",
     ],
   },
 ];
@@ -172,56 +162,56 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Oscar proved me wrong.",
+    name: "Kai Hu",
+    designation: "CEO",
+    company: "GiftWrap AI",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Oscar does.",
+    name: "Catherin Ng'ang'a",
+    designation: "CEO",
+    company: "Crayven Estates",
+    image: "https://randomuser.me/api/portraits/women/2.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "After Wanga optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Rachael Wainaina",
+    designation: "DIrector",
+    company: "Crayven Estates",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dale Codex",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Experience the power of creativity with our innovative web application powered by OpenAI's DALE API. Our platform enables you to effortlessly generate stunning images using cutting-edge artificial intelligence technology. Save and share your masterpieces seamlessly, showcasing your unique vision to the world. Unleash your imagination and explore endless possibilities with our image generation tool.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "openai",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "dale AI",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: jobit,
+    source_code_link: "https://astonishing-hotteok-d26190.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Giftwrap",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "GiftWrap AI simplifies gifting. Order and deliver gifts to your friends hassle-free. Choose from a curated selection, add a personalized message, and spread joy effortlessly with our convenient service.",
     tags: [
       {
         name: "react",
@@ -232,17 +222,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://giftwrap.ai/",
   },
   {
-    name: "Trip Guide",
+    name: "Crayven Estates",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive real estate platform offering users the ability to browse and book properties, explore various listings, and access curated recommendations for desirable locations. Simplify your property search with our intuitive interface.",
     tags: [
       {
         name: "nextjs",
@@ -258,7 +248,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://crayven.co.ke/",
   },
 ];
 
