@@ -123,7 +123,7 @@ const experiences = [
     company_name: "Giftwrap",
     icon: gift,
     iconBg: "#E6E6FA",
-    date: "MARCH 2022 – OCTOBER 2023",
+    date: "MARCH 2022 – JANUARY 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -132,20 +132,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full-Stack Web Developer",
-    company_name: "Crayven Estates",
-    icon: crayven,
-    iconBg: "#383E56",
-    date: "JUNE 2021 – MARCH 2022",
-    points: [
-      "Led the development and deployment of Crayven Estates' real estate website, from conception to implementation.",
-      "Leveraged advanced skills in React.js, CSS, Express.js, and Node.js to create visually appealing interfaces and establish a robust backend infrastructure for the website",
-      "Collaborated closely with marketing and design teams to ensure alignment with branding and effectively showcase the company's diverse properties and services on the website",
-      "Integrated SEO strategies into the website to improve search engine visibility, thereby increasing brand exposure and attracting more potential customers to Crayven Estates' online platform",
-    ],
-  },
-  {
-    title: "Planning and Operations Officer",
+    title: "Planning and Production Supervisor",
     company_name: "General Plastics",
     icon: gpl,
     iconBg: "#FAEBD7",
@@ -153,6 +140,19 @@ const experiences = [
     points: [
       "Spearheaded strategic planning initiatives for key operations at General Plastics, focusing on long-term goals and objectives to drive organizational success.",
       "Implemented meticulous resource allocation strategies, including budgeting for raw materials and coordinating resources",
+      "Leveraged chemical engineering expertise to optimize manufacturing processes, enhancing efficiency and productivity across all operations",
+      " Employed cost-effective planning methodologies to ensure optimal utilization of resources, minimizing expenses while maximizing output and profitability for General Plastics",
+    ],
+  },  
+  {
+    title: "Software Engineer",
+    company_name: "Libra Instruments",
+    icon: gpl,
+    iconBg: "#FAEBD7",
+    date: "JAN 2023 – FEB 2024.",
+    points: [
+      "Libra Software maintenance.",
+      "Maintainence of machines and installation of sensors",
       "Leveraged chemical engineering expertise to optimize manufacturing processes, enhancing efficiency and productivity across all operations",
       " Employed cost-effective planning methodologies to ensure optimal utilization of resources, minimizing expenses while maximizing output and profitability for General Plastics",
     ],
