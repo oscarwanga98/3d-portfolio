@@ -29,8 +29,19 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import gpl from "./gpl logo.gif";
+import crayven from "./crayven.png";
+import gift from "./gift.png";
+
+// import homecrayven from "./homecrayven.png";
+// import giftwrap from "./giftwrap2.GIF";
+// import dale from "./dale.png";
+
 
 export {
+  // homecrayven,
+  // giftwrap,
+  // dale,
   logo,
   backend,
   creator,
@@ -59,4 +70,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  gpl,
+  crayven,
+  gift,
 };
