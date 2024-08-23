@@ -37,10 +37,9 @@ import gift from "./gift.png";
 // import giftwrap from "./giftwrap2.GIF";
 // import dale from "./dale.png";
 
-
 export {
   // homecrayven,
-  // giftwrap,
+  gift,
   // dale,
   logo,
   backend,
@@ -72,5 +71,4 @@ export {
   tripguide,
   gpl,
   crayven,
-  gift,
 };
